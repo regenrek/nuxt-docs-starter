@@ -56,3 +56,11 @@ Or open [Nuxt UI playground](https://ui.nuxt.com/playground).
 ```bash
 npm run dev
 ```
+
+```vue
+<template>
+  <div>
+    <h1>About</h1>
+  </div>
+</template>
+```
