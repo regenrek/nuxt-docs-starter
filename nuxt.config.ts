@@ -7,8 +7,10 @@ export default defineNuxtConfig({
   },
   content: {
     highlight: {
-      // Theme used in all color schemes.
-      theme: 'github-light'
-    }
+      theme: {
+        default: "one-dark-pro",
+        dark: "github-dark",
+      },
+    },
   }
 })
